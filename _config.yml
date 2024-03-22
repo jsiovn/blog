@@ -9,11 +9,11 @@ description: 'Blog chia sẻ các bài viết kinh nghiệm về JavaScript đ�
 keywords: javascript
 author: Phu Phan
 language: en
-timezone: ''
+timezone: 'Asia/Ho_Chi_Minh'
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://javascript.io.vn
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://jsiovn.github.io/blog'
+url: https://jsiovn.github.io/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
