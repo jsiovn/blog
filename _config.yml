@@ -13,7 +13,7 @@ timezone: 'Asia/Ho_Chi_Minh'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://jsiovn.github.io/blog'
-url: https://jsiovn.github.io/blog
+url: https://javascript.io.vn/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
