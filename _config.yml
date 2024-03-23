@@ -6,10 +6,12 @@
 title: "JavaScript's Blog"
 subtitle: 'Ứng dụng JavaScript vào đời sống'
 description: 'Blog chia sẻ các bài viết kinh nghiệm về JavaScript để ứng dụng vào công việc và đời sống'
-keywords: javascript
-author: Phu Phan
+keywords: javascript, react, c, c#, c++, jest
+author: Paolo Phan
 language: en
 timezone: 'Asia/Ho_Chi_Minh'
+favicon: /icons/favicon.ico
+avatar: /images/avatar.jpg
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://jsiovn.github.io/blog'
