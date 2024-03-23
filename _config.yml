@@ -12,6 +12,19 @@ language: en
 timezone: 'Asia/Ho_Chi_Minh'
 favicon: /icons/favicon.ico
 avatar: /images/avatar.jpg
+rss_dir: atom.xml
+
+# Navbar menu
+menu:
+ archives: true
+ tags: true
+ categories: true
+
+# Eidget
+ga: # google analytics tracking code UA-XXXXXXX-X
+gcs: # google custom search code
+flagcounter_href: https://info.flagcounter.com/Eo0H
+flagcounter_img_src: https://s01.flagcounter.com/count/Eo0H/bg_FFFFFF/txt_000000/border_FFFFFF/columns_3/maxflags_9/viewers_3/labels_0/pageviews_1/flags_0/percent_0/
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://jsiovn.github.io/blog'
