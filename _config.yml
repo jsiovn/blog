@@ -13,6 +13,9 @@ timezone: 'Asia/Ho_Chi_Minh'
 favicon: /icons/favicon.ico
 avatar: /images/avatar.jpg
 rss_dir: atom.xml
+location: Viet Nam
+email: javascript.io.vn@gmail.com
+disqus: javascript-io-vn
 
 # Navbar menu
 menu:
@@ -20,7 +23,11 @@ menu:
  tags: true
  categories: true
 
-# Eidget
+# Social media
+social:
+  github: https://github.com/jsiovn
+
+# Widget
 ga: # google analytics tracking code UA-XXXXXXX-X
 gcs: # google custom search code
 flagcounter_href: https://info.flagcounter.com/Eo0H
