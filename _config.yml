@@ -12,16 +12,9 @@ language: en
 timezone: 'Asia/Ho_Chi_Minh'
 favicon: /icons/favicon.ico
 avatar: /images/avatar.jpg
-rss_dir: atom.xml
 location: Viet Nam
 email: javascript.io.vn@gmail.com
 disqus: javascript-io-vn
-
-# Navbar menu
-menu:
- archives: true
- tags: true
- categories: true
 
 # Social media
 social:
@@ -124,3 +117,18 @@ theme: replica
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# RSS
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
