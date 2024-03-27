@@ -133,7 +133,7 @@ feed:
   autodiscovery: true
   template:
 
-#Sitemap
+# Sitemap
 sitemap:
   path:
     - sitemap.xml
@@ -143,3 +143,15 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# TOC
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: before
+    symbol: '#'
+    style: toc-anchor
+
