@@ -865,6 +865,13 @@
     "resolve" "^1.20.0"
     "tildify" "^2.0.0"
 
+"hexo-filter-flowchart@^1.0.4":
+  "integrity" "sha512-WlpLcr7jJc+ukOSl3IfUXq+WlUb89P8wFAeYopmVnmiSiHEd3P9NQfqchSRB2lCN3aKc5vK1kANi3VM0RojAoQ=="
+  "resolved" "https://registry.npmjs.org/hexo-filter-flowchart/-/hexo-filter-flowchart-1.0.4.tgz"
+  "version" "1.0.4"
+  dependencies:
+    "deep-assign" "^2.0.0"
+
 "hexo-filter-sequence@^1.0.3":
   "integrity" "sha512-S3kXxzm+mHNUNejJCBeDEu8yFmp/oBDDvzUGLix6gKoCfetx6IOtScKZXeLVKxsURcxOkAYK5T16aS9/CWckyA=="
   "resolved" "https://registry.npmjs.org/hexo-filter-sequence/-/hexo-filter-sequence-1.0.3.tgz"
