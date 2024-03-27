@@ -456,6 +456,13 @@
   "resolved" "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.3.tgz"
   "version" "10.4.3"
 
+"deep-assign@^2.0.0":
+  "integrity" "sha512-2QhG3Kxulu4XIF3WL5C5x0sc/S17JLgm1SfvDfIRsR/5m7ZGmcejII7fZ2RyWhN0UWIJm0TNM/eKow6LAn3evQ=="
+  "resolved" "https://registry.npmjs.org/deep-assign/-/deep-assign-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "is-obj" "^1.0.0"
+
 "deepmerge@^4.2.2":
   "integrity" "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="
   "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
@@ -858,6 +865,13 @@
     "resolve" "^1.20.0"
     "tildify" "^2.0.0"
 
+"hexo-filter-sequence@^1.0.3":
+  "integrity" "sha512-S3kXxzm+mHNUNejJCBeDEu8yFmp/oBDDvzUGLix6gKoCfetx6IOtScKZXeLVKxsURcxOkAYK5T16aS9/CWckyA=="
+  "resolved" "https://registry.npmjs.org/hexo-filter-sequence/-/hexo-filter-sequence-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "deep-assign" "^2.0.0"
+
 "hexo-front-matter@^4.2.1":
   "integrity" "sha512-sJJI0GNmejYiwBvgnGRKn5V3sbODB4dNPr8jyw2Qp0PRHr4Uuyv8iyxw6WfK3+T7yvzYvJOh+tZ7jnwr2BYARA=="
   "resolved" "https://registry.npmjs.org/hexo-front-matter/-/hexo-front-matter-4.2.1.tgz"
@@ -1236,6 +1250,11 @@
   "integrity" "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng=="
   "resolved" "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz"
   "version" "7.0.0"
+
+"is-obj@^1.0.0":
+  "integrity" "sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg=="
+  "resolved" "https://registry.npmjs.org/is-obj/-/is-obj-1.0.1.tgz"
+  "version" "1.0.1"
 
 "is-plain-object@^2.0.4":
   "integrity" "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og=="

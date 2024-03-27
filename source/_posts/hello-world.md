@@ -55,4 +55,13 @@ You can set a tag for your post.
 You can add a picture to source folder
 Then embed the image by markdown syntax.
 
-![Big O graphs](./assets/images/lung.JPG)
+![Big O graphs](./assets/images/lung.jpg)
+
+### Add a sequence
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Note left of Alice: Alice thinks
+Bob-->Alice: I am good thanks!
+```
