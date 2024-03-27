@@ -1,7 +1,10 @@
 ---
 title: Hello World
+date: 2024-03-23 19:47:32
+tags: basic
+categories: javascript
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+<!-- toc -->
 
 ## Quick Start
 
@@ -36,3 +39,20 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+## Write new post
+
+### Set a category
+
+You can set a category for your post.
+
+
+### Set a tag
+
+You can set a tag for your post.
+
+### Add a picture
+You can add a picture to source folder
+Then embed the image by markdown syntax.
+
+![Big O graphs](./assets/images/lung.JPG)
