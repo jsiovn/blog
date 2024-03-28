@@ -40,7 +40,7 @@ var nav_selected = page.path.split('/')[0];
               <% } %>
             </span>
             <span><i class="fa fa-tag"></i> <%= post.tags.length %> </span>
-            <span>Published {{moment(<%= post.date.valueOf() %>).fromNow()}}</span>
+            <span>Published <%= formatDate(post.date.valueOf()) %></span>
           </div>
         </li>
         <% }) %>
