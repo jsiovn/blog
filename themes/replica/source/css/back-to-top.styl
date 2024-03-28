@@ -28,3 +28,20 @@
   background: url(/icons/top-arrow.svg) no-repeat center 50%;
   background-color: $grey-dark;
 }
+
+.cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top--fade-out {
+  opacity: 0.5;
+}
+.cd-top:hover {
+  background-color: $grey-dark;
+  opacity: 1;
+}
