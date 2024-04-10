@@ -1,8 +1,7 @@
 ---
 title: Hello World
 date: 2024-03-23 19:47:32
-tags: basic
-categories: javascript
+published: false
 ---
 <!-- toc -->
 
