@@ -31,7 +31,7 @@ var flagcounter_img_src = config.flagcounter_img_src;
       by <a href="//github.com/sabrinaluo">Hiitea</a> ❤ Powered by Hexo
     </div>
     </div>
-    <% if(flagcounter_href && env.env !== 'development'){ %>
+    <% if(flagcounter_href && config.enabledScripts){ %>
     <div class="footer-pageview">
         <a href="<%= flagcounter_href %>">
           <img src="<%= flagcounter_img_src %>">

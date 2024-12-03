@@ -18,10 +18,6 @@ var article_edit = config.article_edit || {};
   </article>
 </div>
 
-<% if (env.env !== 'development') { %>
-  <% if (config.gitalk ) { %>
-    <%- partial('_widget/gitalk') %>
-  <% }else{ %>
-    <%- partial('_widget/disqus') %>
-  <% } %>
+<% if (config.enabledScripts) { %>
+  <%- partial('_widget/disqus') %>
 <% } %>
