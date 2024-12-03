@@ -2337,9 +2337,9 @@
   dependencies:
     "deep-assign" "^2.0.0"
 
-"hexo-filter-sequence@^1.0.3":
-  "integrity" "sha512-S3kXxzm+mHNUNejJCBeDEu8yFmp/oBDDvzUGLix6gKoCfetx6IOtScKZXeLVKxsURcxOkAYK5T16aS9/CWckyA=="
-  "resolved" "https://registry.npmjs.org/hexo-filter-sequence/-/hexo-filter-sequence-1.0.3.tgz"
+"hexo-filter-sequence@github:phudev95/hexo-filter-sequence#d6150a01f45b744612f5c80815fa4d70a1c538ac":
+  "integrity" "sha512-63JI4Xzlt6I5ggNYugx7NNpC/oKUGXntohgMGOZFGGWLZ7rDGmwhdkw19NXHXLF+P0dqkZgC3lJ6AdUOa/wT4Q=="
+  "resolved" "git+ssh://git@github.com/phudev95/hexo-filter-sequence.git#d6150a01f45b744612f5c80815fa4d70a1c538ac"
   "version" "1.0.3"
   dependencies:
     "deep-assign" "^2.0.0"

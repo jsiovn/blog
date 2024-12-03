@@ -14,7 +14,7 @@
   "dependencies": {
     "hexo": "^7.0.0",
     "hexo-filter-flowchart": "^1.0.4",
-    "hexo-filter-sequence": "^1.0.3",
+    "hexo-filter-sequence": "github:phudev95/hexo-filter-sequence#d6150a01f45b744612f5c80815fa4d70a1c538ac",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",

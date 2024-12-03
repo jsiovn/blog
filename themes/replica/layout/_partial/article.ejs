@@ -18,8 +18,10 @@ var article_edit = config.article_edit || {};
   </article>
 </div>
 
-<% if (config.gitalk ) { %>
+<% if (env.env !== 'development') { %>
+  <% if (config.gitalk ) { %>
     <%- partial('_widget/gitalk') %>
-<% }else{ %>
+  <% }else{ %>
     <%- partial('_widget/disqus') %>
+  <% } %>
 <% } %>

@@ -7,11 +7,12 @@ tags:
 categories:
 - JavaScript
 - JavaScript Nâng Cao
+summary: "Tìm hiểu Iterables và Iterators trong ES6, cách hoạt động và ứng dụng."
+description: "Khám phá Iterables và Iterators trong ES6, cơ chế hoạt động, ứng dụng trên Array, Map, Set, và cách tạo Iterable tùy chỉnh."
 published: true
 ---
 
 <!-- toc -->
-
 
 
 ## Tại sao cần sử dụng Iterables và Iterators?
@@ -25,7 +26,11 @@ Nhưng khi bạn dùng **for...of** với một object thì sẽ không hoạt �
 const cat = {name: 'Heo'}
 for (const value of cat) {}
 ```
-> Uncaught TypeError: cat is not iterable
+
+**Kết quả**:
+```
+Uncaught TypeError: cat is not iterable
+```
 
 Lý do là Object không hỗ trợ Iterable mặc định như Array, Map, Set. Nhưng ES6 có hỗ trợ bạn tạo mới Iterable trên object theo pattern Iterable & Iterator mà ES6 quy ước. Lúc này, bạn có thể làm được rất nhiều việc mà bạn muốn, vậy hãy cùng mình tìm hiểu tiếp nhé.
 
@@ -39,7 +44,12 @@ Iterable thể hiện một danh sách các phần tử có thể được duy�
 const catNames = ["Heo", "Sun"];
 console.log(catNames[Symbol.iterator]);
 ```
-> ƒ values() { [native code] }
+
+**Kết quả**:
+```
+ƒ values() { [native code] }
+```
+
 ### Iterator là gì?
 
 Iterator được xây dựng dựa trên pattern mà ES6 quy ước, bản thân Iterator chứa một trạng thái lặp. Cấu trúc Iterator là object chứa method **next**, khi gọi sẽ trả về object với 2 thuộc tính: *value, done*.
@@ -73,7 +83,11 @@ for (const value of myPets) {
   console.log(value);
 }
 ```
-> TypeError: myPets is not iterable
+
+**Kết quả**:
+```
+TypeError: myPets is not iterable
+```
 
 #### Sử dụng for...of với object hỗ trợ Iterable
 ```javascript
@@ -108,8 +122,12 @@ for (const value of myPets) {
   console.log(value);
 }
 ```
-> { name: 'Heo', age: '5 years old' }
-> { name: 'Lung', age: '1 year old' }
+
+**Kết quả**:
+```
+{ name: 'Heo', age: '5 years old' }
+{ name: 'Lung', age: '1 year old' }
+```
 
 #### Cơ chế hoạt động của for...of phía bên dưới ES6
 ```javascript
@@ -150,9 +168,12 @@ while (!result.done) {
   result = iterator.next();
 }
 ```
-> { name: 'Heo', age: '5 years old' }
-> { name: 'Lung', age: '1 year old' }
 
+**Kết quả**:
+```
+{ name: 'Heo', age: '5 years old' }
+{ name: 'Lung', age: '1 year old' }
+```
 
 ### Sử dụng for...of trên Array, Map, Set
 #### Sử dụng for...of trên Array
@@ -166,8 +187,12 @@ for (const pet of pets) {
   console.log(pet);
 }
 ```
-> { name: 'Heo', age: '5 years old' }
-> { name: 'Lung', age: '1 year old' }
+
+**Kết quả**:
+```
+{ name: 'Heo', age: '5 years old' }
+{ name: 'Lung', age: '1 year old' }
+```
 
 #### Sử dụng for...of trên Map
 ```javascript
@@ -179,8 +204,12 @@ for (const [name, age] of petMap) {
   console.log({ name, age });
 }
 ```
-> { name: 'Heo', age: '5 years old' }
-> { name: 'Lung', age: '1 year old' }
+
+**Kết quả**:
+```
+{ name: 'Heo', age: '5 years old' }
+{ name: 'Lung', age: '1 year old' }
+```
 
 #### Sử dụng for...of trên Set
 ```javascript
@@ -192,8 +221,12 @@ for (const pet of petSet) {
   console.log(pet);
 }
 ```
-> { name: 'Heo', age: '5 years old' }
-> { name: 'Lung', age: '1 year old' }
+
+**Kết quả**:
+```
+{ name: 'Heo', age: '5 years old' }
+{ name: 'Lung', age: '1 year old' }
+```
 
 ## Kết luận
 Thông qua bài viết này, bạn đã có thêm kiến thức về Iterables & Iterators từ ES6 với việc được hỗ trợ mặc định trên kiểu dữ liệu Array, Map, Set cho đến tự thiết kế Iterable cho object bất kì mà bạn xây dựng.
@@ -236,4 +269,8 @@ const myPets = {
 const filteredPets = [...myPets].filter(pet => pet.name === 'Heo');
 console.log(filteredPets);
 ```
-> [ { name: 'Heo', age: '5 years old' } ]
+
+**Kết quả**:
+```
+[ { name: 'Heo', age: '5 years old' } ]
+```
