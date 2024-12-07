@@ -19,13 +19,13 @@ var avatar = config.avatar || theme.avatar || 'https://octodex.github.com/images
 
       <ul class="navbar-nav float-left">
         <% if(theme.menu.archives){ %>
-        <li><a href="<%= url_for(theme.archive_dir) %>">Archives</a></li>
+        <li><a href="<%= url_for(theme.archive_dir) %>/">Archives</a></li>
         <% } %>
         <% if(theme.menu.categories){ %>
-        <li><a href="<%= url_for(theme.category_dir) %>">Categories</a></li>
+        <li><a href="<%= url_for(theme.category_dir) %>/">Categories</a></li>
         <% } %>
         <% if(theme.menu.tags){ %>
-        <li><a href="<%= url_for(theme.tag_dir) %>">Tags</a></li>
+        <li><a href="<%= url_for(theme.tag_dir) %>/">Tags</a></li>
         <% } %>
         <% if(theme.rss_dir){ %>
         <li class="desktop-only"><a href="<%= url_for(theme.rss_dir) %>" target="_blank">RSS</a></li>
